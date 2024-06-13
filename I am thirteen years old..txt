@@ -1,4 +1,8 @@
 
 Я пас ягнята за селом - Andrii Savitskij
+<<<<<<< HEAD
 
 Чи так мені чого було?
+=======
+Обернувся я на хати — Stas Tarasenko
+>>>>>>> 008992e2dbafbcd67a23bc97e3df67870127ebcb
