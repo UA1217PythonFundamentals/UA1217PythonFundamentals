@@ -45,10 +45,9 @@ print(SEPARATOR)
 
 # 03.2.a Product of the digits in 4-digit natural number:
 number = 1989
-result = 1
 
-for i in str(number):
-    result *= int(i)
+result = str(number)
+result = int(result[0]) * int(result[1]) * int(result[2]) * int(result[3])
 
 print(f"Product of {number} is: {result}")
 
