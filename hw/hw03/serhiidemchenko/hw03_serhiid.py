@@ -46,11 +46,20 @@ reverse = num_list[3]+num_list[2]+num_list[1]+num_list[0]
 
 print(f"Revers of {number} is {reverse}")
 
-#task 2.2
+# task 2.2
 
+#Не зміг зробити
 
+# task 2.3
 
+a = 100
+b = 200
 
+print((a), (b))
+
+a, b = b, a
+
+print((a), (b))
 
 
 
