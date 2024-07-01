@@ -20,9 +20,15 @@ a = """The Zen of Python, by Tim Peters
 18.If the implementation is easy to explain, it may be a good idea.
 19.Namespaces are one honking great idea -- let's do more of those!
 """
-# print(a)
+#print(a)
 number_better=a.count("better")
 number_never= a.count("never")
 number_is=a.count("is")
 
 print (f'The word "better" occurs {number_better} times, \t the word "never" occurs {number_never} times, \t the word "is" occurs {number_is} times, in The Zen of Python.')
+
+print(a.upper())
+
+# x=1234
+# b=list(x)
+# print(b)
