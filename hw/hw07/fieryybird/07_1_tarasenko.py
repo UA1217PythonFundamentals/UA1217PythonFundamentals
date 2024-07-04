@@ -46,15 +46,7 @@ print(f'Area is: {result}')
 
 # Task 3.
 
-def number_of_characters(str):
-  '''Return the number of characters included in the given string.'''
-  converted_string = str.lower()
-  result = {}
-  for i in converted_string:
-    if i != ' ':
-      result[i] = converted_string.count(i)
-  return(result)
-
+number_of_characters = lambda str: {char: str.lower().count(char) for char in str.lower() if char != ' '}
 
 str = input("Enter any text and I'll calculate number of characters: \n")
 print(number_of_characters(str))
