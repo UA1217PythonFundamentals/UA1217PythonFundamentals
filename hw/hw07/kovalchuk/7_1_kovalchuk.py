@@ -50,7 +50,7 @@ def main():
         elif enter_condition=="3":
             radius = float(input("Enter radius of circle: "))
             area = circle_area(radius)
-            print(f"The area of the triangle is: {area}")
+            print(f"The area of the circle is: {area}")
         elif enter_condition=="4":
             print("Exit")
             break
