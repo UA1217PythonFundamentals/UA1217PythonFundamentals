@@ -16,7 +16,7 @@ def area_of_triangle(a,h):
 
 def area_of_circle(R):
 
-    return R*3.14
+    return R*R*3.14
 print("For what type of figure you want to calculate area: Rectangle, Triangle, Circle")
 figure=input()
 figure=figure.lower()
