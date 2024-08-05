@@ -13,14 +13,11 @@ class Human:
     def arbitrary_message():
         return "This is an arbitrary message."
 
-# Example usage
 person = Human("Bober")
 
-# Instance method
-print(person.welcome_message())  # Output: Welcome, Alice!
 
-# Class method
-print(Human.species_info())      # Output: Humans are a species of Homosapiens.
+print(person.welcome_message())  
 
-# Static method
-print(Human.arbitrary_message()) # Output: This is an arbitrary message.
+print(Human.species_info())    
+
+print(Human.arbitrary_message())
