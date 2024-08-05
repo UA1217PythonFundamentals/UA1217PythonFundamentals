@@ -17,16 +17,16 @@
 #     print("You should enter a number.")
 
 #Task 2
-def print_day(num):
-    week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-    if not 1 <= num <= 7:
-        raise IndexError()
-    return week[num-1]
+# def print_day(num):
+#     week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+#     if not 1 <= num <= 7:
+#         raise IndexError()
+#     return week[num-1]
 
-day = int(input("Enter the day of the week (numeric):"))
-try:
-    print(print_day(day))
-except IndexError:
-    print("You should enter a number between 1 and 7")
-except ValueError:
-    print("You should enter a number.")
+# day = int(input("Enter the day of the week (numeric):"))
+# try:
+#     print(print_day(day))
+# except IndexError:
+#     print("You should enter a number between 1 and 7")
+# except ValueError:
+#     print("You should enter a number.")
