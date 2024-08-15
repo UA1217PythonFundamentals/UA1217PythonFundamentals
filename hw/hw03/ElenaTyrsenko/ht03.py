@@ -65,3 +65,6 @@ var1, var2 = var2, var1
 print("var1:", var1)
 print("var2:", var2)
 
+
+ print(bool(0), bool(3.14159), bool(-3), bool(1.0+1j))
+
