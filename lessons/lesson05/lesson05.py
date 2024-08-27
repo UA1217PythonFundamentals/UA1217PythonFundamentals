@@ -134,10 +134,22 @@
 
 
 
-n = int(input("N: "))
-m = int(input("M: "))
+#n = int(input("N: "))
+#m = int(input("M: "))
 
-for i in range(n):
-    for j in range(m):
-        print((i, j), end="\t")
-    print()
+#for i in range(n):
+    #for j in range(m):
+        #print((i, j), end="\t")
+    #print()
+
+
+
+s = str(input(""))
+
+vowels = 'aeiou'
+count= 0
+
+for vowel in vowels:
+    count += s.count(vowel)
+
+print('Number of vowels: ' + str(count))

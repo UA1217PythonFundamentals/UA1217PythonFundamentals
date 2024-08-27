@@ -73,7 +73,8 @@
 # print(a[4][2][1])
 # a.append(a)
 # print(a[5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5][5])
-
+#score = int(input("score: "))
+# 
 # score = int(input("score: "))
 # if score > 8:
 #     print("\tYou have passed the exam")
@@ -83,7 +84,6 @@
 # print("Exam was finished.")
 
 
-# score = int(input("score: "))
 # if score > 8:
 #     print("\tYou have passed the exam")
 #     print("\tUra!!!!")
@@ -219,3 +219,11 @@
 #     print(statuses)
 # else:
 #     print("is empty")
+
+def string_int(str1):
+string_int(str1) = int(input("Value:"))
+if str1 > 0:
+     print(str1)
+else:
+     print("NaN")
+    

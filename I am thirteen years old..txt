@@ -19,7 +19,11 @@
 Запекло, почервоніло - Maryna Ivanova
 
 
-
+<<<<<<< Updated upstream
+Боже небо голубеє - Yana Podsievalova
+=======
+Боже небо голубеє - Yana Podsievalova (me)
+>>>>>>> Stashed changes
 
 І те помарніло. - Roman Sherstiak 
 Поглянув я на ягнята — Serhii Demchenko
